@@ -49,7 +49,7 @@ const Projects = () => {
                                             <h1 className='text-[0.7vw] font-extralight'>{project.date}</h1>
                                             <h2 className="text-[1.3vw] tracking-tighter leading-8 font-bold uppercase">{project.title}.</h2>
                                         </div>
-                                        <p className="text-sm">{project.description}</p>
+                                        <p className="text-[0.7vw]">{project.description}</p>
                                     </div>
                                     <div className='flex gap-2 py-5 border-t'>
                                         {project.collaborators.map((collaborator, index) => (
