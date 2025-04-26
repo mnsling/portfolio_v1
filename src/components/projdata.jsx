@@ -21,6 +21,13 @@ const projectsData = [
     description: 'Designed a full POS system for 4U convenience store, featuring a custom UI in Figma and a frontend built with ReactJS.',
     github: 'https://github.com/DLGallego/EmployeeSystemFinal',
     collaborators: ['Nicklaus L.', 'George B.', 'Daniel G.'],
+  },
+  {
+    date: '08.2024 - 12.2024',
+    title: 'Minecraft Companion App',
+    description: 'I designed a mobile application for a Minecraft companion using Figma for UI/UX, Canva for visuals, and wireframes for structure, as part of a UI/UX competition.',
+    github: 'https://www.figma.com/design/54WaPVcPi91BXlmMTmr0h5/Minecraft-Companion-App?node-id=0-1&t=CD8YQ1EdIqaiEp3x-1',
+    collaborators: ['Nicklaus L.', 'Jose I.', 'Francis F.'],
   }
 ];
 
