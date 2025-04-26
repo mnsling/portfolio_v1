@@ -10,7 +10,7 @@ const Projects = () => {
                 <h1 className="text-[5vw] text-[#d61723] font-bold tracking-tighter leading-[4vw]">MY<br />PROJECTS.</h1>
                 <div className="flex w-full h-full gap-2">
                     {projectsData.map((project, index) => (
-                        <div key={index} className="w-full h-full bg-black flex flex-col items-end justify-between px-10 py-4 gap-14 text-white hover:bg-[#d61723] transition-all duration-300">
+                        <div key={index} className="w-full h-full bg-[#1f1f1f] flex flex-col items-end justify-between px-10 py-4 gap-14 text-white hover:bg-[#d61723] transition-all duration-300">
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline mt-2">
                                 <img src={git} />
                             </a>
