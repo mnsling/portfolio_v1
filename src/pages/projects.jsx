@@ -1,7 +1,6 @@
 import React from 'react';
 import projectsData from '../components/projdata'; // import your project data
 import git from '../assets/github.svg'
-import link from '../assets/link.svg'
 
 const Projects = () => {
     return (
