@@ -61,7 +61,7 @@ const Home = () => {
       {/* Landing Section */}
       <div id="landing" className="sticky top-0 h-screen w-full z-10 flex items-center justify-center bg-[#f2f2f2] section" data-bg-color="white" style={{ scrollPaddingTop: '50px' }}>
         <h1 className='absolute text-[16.5vw] font-bold stroke'>PORTFOLIO.</h1>
-        <div className='min-w-[70%] min-h-[20%] py-8 md:min-h-[30%] lg:min-h-[35%] xl:min-h-[50%] 2xl:min-h-[60%] flex justify-between z-50 button'>
+        <div className='min-w-[70%] min-h-[22%] py-8 md:min-h-[30%] lg:min-h-[35%] xl:min-h-[50%] 2xl:min-h-[60%] flex justify-between z-50 button'>
           <Type />
         </div>
       </div>
