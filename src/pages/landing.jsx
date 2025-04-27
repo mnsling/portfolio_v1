@@ -46,10 +46,10 @@ const Home = () => {
     <div className="relative h-[400vh] font-poppins min-w-[30%]">
       {/* Navbar */}
       <div className="w-full flex justify-center">
-        <div className={`fixed flex justify-between items-center min-w-[70%] z-50 pt-10 text-[0.8vw] ${bgColor === 'white' ? 'text-black' : 'text-white'}`}>
+        <div className={`fixed flex justify-between items-center min-w-[70%] z-50 pt-10 text-[2.3vw] md:text-[1.8vw] lg:text-[1.4vw] xl:text-[1vw] 2xl:text-[0.8vw] ${bgColor === 'white' ? 'text-black' : 'text-white'}`}>
           <h1 className={`font-semibold z-50 ${bgColor === 'white' ? 'text-[#d61723]' : 'text-[#fff]'}`}>NICK.</h1>
-          <div className={`w-[35vw] h-[1px] ${bgColor === 'white' ? 'bg-[#d61723]' : 'bg-[#fff]'}`} />
-          <div className={`flex gap-8 font-semibold items-start ${bgColor === 'white' ? 'text-[#d61723]' : 'text-[#fff]'}`}>
+          <div className={`hidden xl:block w-[30vw] 2xl:w-[40vw] h-[1px] ${bgColor === 'white' ? 'bg-[#d61723]' : 'bg-[#fff]'}`} />
+          <div className={`flex gap-2 md:gap-4 xl:gap-8 font-semibold items-start ${bgColor === 'white' ? 'text-[#d61723]' : 'text-[#fff]'}`}>
             <button onClick={() => handleScroll('landing')}>home.</button>
             <button onClick={() => handleScroll('about')}>about.</button>
             <button onClick={() => handleScroll('experiences')}>experiences.</button>
@@ -61,7 +61,7 @@ const Home = () => {
       {/* Landing Section */}
       <div id="landing" className="sticky top-0 h-screen w-full z-10 flex items-center justify-center bg-[#f2f2f2] section" data-bg-color="white" style={{ scrollPaddingTop: '50px' }}>
         <h1 className='absolute text-[17vw] font-bold stroke'>PORTFOLIO.</h1>
-        <div className='min-w-[70%] min-h-[50%] flex justify-between z-50'>
+        <div className='min-w-[70%] min-h-[20%] py-8 md:min-h-[30%] lg:min-h-[35%] xl:min-h-[50%] 2xl:min-h-[60%] flex justify-between z-50'>
           <Type />
         </div>
       </div>
