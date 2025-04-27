@@ -48,7 +48,7 @@ const Typewriter = () => {
             {doneTyping && (
                 <div className='w-[40%] flex flex-col justify-between items-end'>
                     <div className='w-[1vw] h-[1vw] bg-[#d61723] rounded-full animate-blink' />
-                    <div className='flex w-full items-center pb-4 md:pb-5 xl:pb-16 animate-wipeRight'>
+                    <div className='flex w-full items-center pb-2 md:pb-5 xl:pb-16 animate-wipeRight'>
                         <div className='w-[50%] xl:w-full h-[1px] bg-[#d61723]' />
                         <h1 className='w-[50%] text-[3vw] xl:text-[2vw] text-[#d61723] text-right leading-[2vw] font-bold tracking-tighter'>Est. 2025</h1>
                     </div>
