@@ -16,6 +16,12 @@
   color: transparent;
 }
 
+.stroke3 {
+  -webkit-text-stroke: 0.5px #ffffff;
+  /* Adjust stroke width and color as needed */
+  color: transparent;
+}
+
 .button {
   @apply transition-all duration-300 ease-out;
 }

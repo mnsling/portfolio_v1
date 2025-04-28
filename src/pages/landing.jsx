@@ -3,6 +3,7 @@ import Type from '../components/type'
 import About from '../pages/about'
 import Exp from '../pages/experience'
 import Proj from '../pages/projects'
+import Footer from '../components/footer'
 
 const Home = () => {
   const [bgColor, setBgColor] = useState('white');
@@ -74,6 +75,8 @@ const Home = () => {
 
       {/* Projects Section */}
       <Proj/>
+
+      <Footer/>
     </div>
   );
 };
