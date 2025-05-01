@@ -44,7 +44,7 @@ const Experience = () => {
                                 <button
                                     key={index}
                                     onClick={() => setActive2025(index)}
-                                    className={`w-[1.8vw] h-[1.8vw] rounded-full border hover:bg-white hover:text-black button ${active2025 === index ? 'bg-white text-black' : 'border-white'}`}
+                                    className={`w-[1.8vw] h-[1.8vw] rounded-full border hover:bg-white hover:text-black transition ${active2025 === index ? 'bg-white text-black' : 'border-white'}`}
                                 >
                                     {index + 1}
                                 </button>
@@ -70,7 +70,7 @@ const Experience = () => {
                                 <button
                                     key={index}
                                     onClick={() => setActive2024(index)}
-                                    className={`w-[1.8vw] h-[1.8vw] rounded-full border hover:bg-white hover:text-black button ${active2024 === index ? 'bg-white text-black' : 'border-white'}`}
+                                    className={`w-[1.8vw] h-[1.8vw] rounded-full border hover:bg-white hover:text-black transition ${active2024 === index ? 'bg-white text-black' : 'border-white'}`}
                                 >
                                     {index + 1}
                                 </button>

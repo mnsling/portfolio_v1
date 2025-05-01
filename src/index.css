@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .stroke {
-  -webkit-text-stroke: 1.5px #e73f3f57;
+  -webkit-text-stroke: 0.5px #e73f3f;
   /* Adjust stroke width and color as needed */
   color: transparent;
 }
@@ -22,6 +22,6 @@
   color: transparent;
 }
 
-.button {
+.transition {
   @apply transition-all duration-300 ease-out;
 }
