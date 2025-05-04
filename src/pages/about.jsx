@@ -1,66 +1,49 @@
-import React, { useState, useEffect } from 'react';
-import SkillCard from '../components/skillcard'; // adjust the path as needed
-import { skills } from '../components/skillsdata';
-import FB from '../assets/facebook.svg'
-import IG from '../assets/instagram.svg'
-import LD from '../assets/linkedin.svg'
+import React from 'react'
+import myPhoto from '../assets/me.png' // replace with your actual image path
 
 const About = () => {
-  const [openSection, setOpenSection] = useState(null);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= 768);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const toggleSection = (section) => {
-    if (!isDesktop) {
-      setOpenSection(openSection === section ? null : section);
-    }
-  };
-
   return (
-    <div className='h-full bg-[#d61723] flex justify-center items-center'>
-      <div className='w-[90%] md:w-[70%] h-[80%] md:h-[70%] flex flex-col gap-10 xl:flex-row'>
-        <div className='h-full w-full flex flex-col gap-10'>
-          <div className='w-full flex flex-col gap-5 text-white xl:gap-5'>
-            <div className='flex flex-col xl:pr-5'>
-              <h1 className='text-[25px] md:text-[35px] 2xl:text-[50px] font-semibold tracking-tighter uppercase'>Introduction.</h1>
-              <p className='text-[14px] 2xl:text-[20px] italic'>Mike Nicklaus S. Ling | June 05, 2001</p>
-            </div>
-            <p className='text-[12px] md:text-[15px] xl:text-[14px] text-pretty'>
-              Hi, names Mike Nicklaus Ling, and I am a frontend developer based in Davao City, Philippines.
-              Currently, I am pursuing a Bachelor of Science degree majoring in Computer Science at Ateneo
-              de Davao University, where I am in my third year of studies.<br /><br />
-              Beyond coding, I have a strong artistic background in graphic design, portrait sketches, and
-              photography. Initially, my interest was not focused on coding; however, I discovered a passion
-              for frontend development due to its creative elements, particularly in website design and UI/UX
-              design.
+    <div className='w-full h-screen bg-[#d61723] flex justify-center items-center'>
+      <div className='w-[90%] h-full flex flex-col lg:flex-row justify-center gap-10 items-center transition
+      md:w-[75%]
+      lg:gap-0'>
+
+        {/* Left: Text Content */}
+        <div className='flex flex-col justify-center gap-5 lg:w-[50%] transition'>
+          <div className='flex flex-col gap-2'>
+            <h1 className='text-[8.5vw] text-white text-left font-semibold tracking-tighter md:text-[5vw] lg:text-[4vw] xl:text-[3vw] transition'>
+              hi, mike here.
+            </h1>
+            <p className='text-[3vw] text-left text-white md:text-[1.6vw] lg:text-[1.3vw] xl:text-[1vw] 2xl:text-[0.8vw] transition'>
+              I'm currently a 3rd Yr. Computer Science student from Ateneo de Davao University, fascinated by the creative side of tech especially frontend development and UI/UX design. I enjoy crafting clean, user-centered interfaces that make a real impact.
             </p>
           </div>
-          <div className='hidden xl:flex flex-col gap-5'>
-            <h1 className='text-white text-[25px] md:text-[35px] 2xl:text-[50px] font-semibold tracking-tighter uppercase'>Links.</h1>
-            <div className='flex gap-3'>
-              <a href='https://www.facebook.com/nicklaus.ling/' target='blank'><button><img src={FB} className='p-3 rounded-full border bg-white' /></button></a>
-              <a href='https://www.instagram.com/lingnicklaus/' target='blank'><button><img src={IG} className='p-3 rounded-full border bg-white' /></button></a>
-              <a href='https://www.linkedin.com/in/mike-nicklaus-ling-9a2695362/' target='blank'><button><img src={LD} className='p-3 rounded-full border bg-white' /></button></a>
-            </div>
+
+          <div className='flex flex-col gap-2'>
+            <p className='text-[3vw] text-left text-white md:text-[1.6vw] lg:text-[1.3vw] xl:text-[1vw] 2xl:text-[0.8vw] transition'>Tools and Languages I have been working with:</p>
+            <ul className='text-[2.5vw] grid grid-cols-2 list-disc pl-5 text-white md:text-[1.3vw] md:grid-cols-3 lg:text-[1vw] lg:grid-cols-2 xl:text-[0.8vw] 2xl:text-[0.6vw] transition'>
+              <li>ReactJS</li>
+              <li>NodeJS, Express</li>
+              <li>Javascript</li>
+              <li>Tailwindcss</li>
+              <li>MySQL</li>
+              <li>Figma</li>
+              <li>Framer</li>
+            </ul>
           </div>
+
+          <p className='text-[3vw] text-left text-white md:text-[1.6vw] lg:text-[1.3vw] xl:text-[1vw] 2xl:text-[0.8vw] transition'>
+            When I’m not immersed in code or design, I drift into my own universe sketching, or exploring new worlds through travel and photography. Strangely therapeutic, cleaning my space feels like realigning my energy core.
+          </p>
         </div>
 
-        <div className='w-full h-full xl:w-[80%] flex flex-col gap-5 text-white'>
-          <h1 className='text-[25px] md:text-[30px] xl:pr-5 2xl:text-[50px] font-semibold tracking-tighter uppercase'>Skills.</h1>
-          <div className='w-full h-[70%] flex flex-col gap-3 md:gap-5'>
-            {skills.map((skillSet, index) => (
-              <SkillCard key={index} title={skillSet.title} items={skillSet.items} />
-            ))}
-          </div>
+        {/* Right: Image on large screens */}
+        <div className='hidden lg:block lg:w-[40vw] xl:w-[30vw] transition'>
+          <img src={myPhoto} alt='Mike Nicklaus Ling' className='w-full' />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

@@ -31,7 +31,7 @@ const footer = () => {
                             </div>
                         </div>
                         <div className='w-full flex flex-col gap-2 items-end'>
-                            <h1 className='text-[2vw] md:text-[0.7vw]'>Nicklaus Ling, 2025 &#8482;</h1>
+                            <h1 className='text-[2vw] md:text-[0.7vw]'>© Nicklaus Ling, 2025</h1>
                         </div>
                     </div>
                 </div>
