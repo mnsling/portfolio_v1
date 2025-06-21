@@ -27,7 +27,7 @@ const Navbar = ({ colorMode }) => {
   return (
     <div className="w-screen flex justify-center pt-10 fixed z-50">
       <div className="w-[90%] md:w-[75%] flex justify-between items-center">
-        <h1 className={`text-[16px] 2xl:text-[18px] font-semibold tracking-tighter ${textColor}`}>NICK.</h1>
+        <h1 className={`text-base font-semibold tracking-tighter ${textColor}`}>NICK.</h1>
 
         <div className={`hidden h-[1px] ${isWhiteBG ? 'bg-[#d61723]' : 'bg-white'} 
           md:block md:w-[30%] lg:w-[48%] xl:w-[60%]`} />
@@ -37,7 +37,7 @@ const Navbar = ({ colorMode }) => {
             <button
               key={item.id}
               onClick={() => handleScroll(item.id)}
-              className={`${textColor} text-[16px] 2xl:text-[18px] tracking-tighter hover:text-black transition`}
+              className={`${textColor} text-base tracking-tighter hover:text-black transition`}
             >
               {item.label}
             </button>
@@ -47,7 +47,7 @@ const Navbar = ({ colorMode }) => {
         <div className="md:hidden">
           <IconButton
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            size="large"
+            size="small"
             edge="end"
             aria-label="menu"
             className="z-50"

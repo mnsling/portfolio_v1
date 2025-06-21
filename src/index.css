@@ -4,24 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.stroke {
-  -webkit-text-stroke: 0.5px #e73f3f;
-  /* Adjust stroke width and color as needed */
-  color: transparent;
-}
-
-.stroke2 {
-  -webkit-text-stroke: 1.5px #ffffff18;
-  /* Adjust stroke width and color as needed */
-  color: transparent;
-}
-
-.stroke3 {
-  -webkit-text-stroke: 0.5px #ffffff;
-  /* Adjust stroke width and color as needed */
-  color: transparent;
-}
-
 .transition {
   @apply transition-all duration-300 ease-out;
 }
