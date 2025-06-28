@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'poppins': ["Poppins", 'sans-serif'],
+        'ibm': ["IBM Plex Sans", 'sans-serif'],
+        'ibmmono': ["IBM Plex Mono", 'monospace'],
       },
       keyframes: {
         wipeDown: {
