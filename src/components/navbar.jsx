@@ -24,15 +24,16 @@ const Navbar = () => {
 
       {/* Full-page Overlay with Transition */}
       <div
-        className={`fixed inset-0 z-40 bg-white px-[15px] pt-[80px] transition ${
-          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-        }`}
+        className={`fixed inset-0 z-40 bg-white px-[15px] pt-[80px] transition ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          }`}
       >
         <div className="flex flex-col items-start gap-2 text-[14px] font-ibm">
+          <button className='hover:text-[#9c9c9c] transition'>Home</button>
           <button className='hover:text-[#9c9c9c] transition'>About</button>
-          <button className='hover:text-[#9c9c9c] transition'>Experience</button>
+          <button className='hover:text-[#9c9c9c] transition'>Updates</button>
           <button className='hover:text-[#9c9c9c] transition'>Projects</button>
-          <button className='hover:text-[#9c9c9c] transition'>Contacts</button>
+          <button className='hover:text-[#9c9c9c] transition'>Services</button>
+          <button className='hover:text-[#9c9c9c] transition'>Contact</button>
         </div>
       </div>
     </>

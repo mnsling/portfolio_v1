@@ -10,6 +10,8 @@ export default {
         'poppins': ["Poppins", 'sans-serif'],
         'ibm': ["IBM Plex Sans", 'sans-serif'],
         'ibmmono': ["IBM Plex Mono", 'monospace'],
+        'noto': ["Noto Sans JP", 'sans-serif'],
+        'italiana': ["Italiana", 'sans-serif'],
       },
       keyframes: {
         wipeDown: {
