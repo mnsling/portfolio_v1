@@ -56,49 +56,49 @@ const app = () => {
               <div className='flex flex-col gap-1'>
                 {/* first row */}
                 <div className='flex gap-1'>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     HTML<img src={Html} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     CSS<img src={Css} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     JAVASCRIPT<img src={Javascript} className='w-4 h-4' />
                   </p>
                 </div>
                 {/* second row */}
                 <div className='flex gap-1'>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     REACTJS<img src={ReactJs} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     NODEJS<img src={Node} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     PRISMA<img src={Prisma} className='w-4 h-4' />
                   </p>
                 </div>
                 {/* third row */}
                 <div className='flex gap-1'>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     MYSQL<img src={Sql} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     FIGMA<img src={Figma} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     FRAMER<img src={Framer} className='w-4 h-4' />
                   </p>
                 </div>
                 {/* fourth row */}
                 <div className='flex gap-1'>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     CANVA<img src={Canva} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     TRELLO<img src={Trello} className='w-4 h-4' />
                   </p>
-                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[12px] text-left py-[5px] px-[10px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
+                  <p className='w-fit flex gap-2 items-center font-ibmmono lowercase text-[13px] text-left py-[3px] px-[12px] border border-black rounded-full hover:text-[#9c9c9c] transition'>
                     NOTION<img src={Notion} className='w-4 h-4' />
                   </p>
                 </div>
