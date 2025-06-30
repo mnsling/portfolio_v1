@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       {/* Fixed Navbar */}
-      <div className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
+      <div className="fixed top-0 left-0 w-full z-40 bg-white border-b border-black">
         <div className="flex justify-between px-[15px] py-[12px] text-[14px] font-ibm">
           <button className='hover:text-[#9c9c9c] transition' onClick={toggleOverlay}>{isOpen ? 'Close' : 'Menu'}</button>
           <div className="flex gap-1">
@@ -24,7 +24,7 @@ const Navbar = () => {
 
       {/* Full-page Overlay with Transition */}
       <div
-        className={`fixed inset-0 z-40 bg-white px-[15px] pt-[80px] transition ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        className={`fixed inset-0 z-30 bg-white px-[15px] pt-[80px] transition ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
           }`}
       >
         <div className="flex flex-col items-start gap-2 text-[14px] font-ibm">

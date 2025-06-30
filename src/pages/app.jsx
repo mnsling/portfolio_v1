@@ -14,6 +14,7 @@ import Framer from '../assets/logo/framer.svg'
 import Canva from '../assets/logo/canva.svg'
 import Trello from '../assets/logo/trello.svg'
 import Notion from '../assets/logo/notion.svg'
+import Brush from '../components/trail'
 
 
 
@@ -21,6 +22,7 @@ import Notion from '../assets/logo/notion.svg'
 const app = () => {
   return (
     <div className='hidden 2xl:block h-screen w-screen'>
+      <Brush/>
       <Navbar />
       <div className='h-full pt-[110px] bg-white flex justify-center'>
         <div className='h-full w-[1720px] mx-[40px] bg-white flex justify-between'>
@@ -41,10 +43,10 @@ const app = () => {
             <div className='flex flex-col gap-4'>
               <h1 className='text-[23px] font-poppins tracking-tighter'>🡢 Updates</h1>
               <div className='flex flex-col'>
-                <button className='font-noto text-[12px] text-left py-[10px] border-y border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-y border-black hover:text-[#9c9c9c] transition'>Gray Lemon Technology Inc. Streamlined Employee Platform UI</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Digital Showcase Built Hardcoded for Gentle Monster</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Gentle Monster Figma Digital Redesign and UX Evolution</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>4U Grocery System | A Modern POS and Inventory Management Interface</button>
               </div>
               <button className='w-[160px] px-[10px] py-[2px] mt-3 font-ibm text-[14px] rounded-full border border-black flex justify-between hover:bg-black hover:text-white transition'>
                 <h1>More</h1>
@@ -110,22 +112,22 @@ const app = () => {
             <div className='flex flex-col gap-20'>
               <button className='w-full h-[600px] flex flex-col gap-2 group'>
                 <div className="relative w-full h-full">
-                  <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${GM})` }} />
-                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300"></div>
-                </div>
-                <div className='flex flex-col leading-6 text-left'>
-                  <h1 className='text-[20px] font-ibmmono tracking-tight'>GENTLE MONSTER ✕ REACTJS</h1>
-                  <p className='text-[14px] font-ibm'>A fresh digital face for an iconic brand.</p>
-                </div>
-              </button>
-              <button className='w-full h-[600px] flex flex-col gap-2 group'>
-                <div className="relative w-full h-full">
                   <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${GL})` }} />
                   <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300"></div>
                 </div>
                 <div className='flex flex-col leading-6 text-left'>
                   <h1 className='text-[20px] font-ibmmono tracking-tight'>Gray Lemon: Workforce UX Reinvented</h1>
                   <p className='text-[14px] font-ibm'>Engineered a future-ready UI for employee management, transforming complex data into seamless digital experiences.</p>
+                </div>
+              </button>
+              <button className='w-full h-[600px] flex flex-col gap-2 group'>
+                <div className="relative w-full h-full">
+                  <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${GM})` }} />
+                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300"></div>
+                </div>
+                <div className='flex flex-col leading-6 text-left'>
+                  <h1 className='text-[20px] font-ibmmono tracking-tight'>GENTLE MONSTER ✕ REACTJS</h1>
+                  <p className='text-[14px] font-ibm'>A fresh digital face for an iconic brand.</p>
                 </div>
               </button>
             </div>
@@ -140,10 +142,10 @@ const app = () => {
             <div className='flex flex-col gap-4'>
               <h1 className='text-[23px] font-poppins tracking-tighter'>🡢 Projects</h1>
               <div className='flex flex-col'>
-                <button className='font-noto text-[12px] text-left py-[10px] border-y border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
-                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-y border-black hover:text-[#9c9c9c] transition truncate'>Gray Lemon Technology Inc. Employee Management System (Figma Prototype)</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition truncate'>Gentle Monster Re-Engineered Website</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition truncate'>4U Grocery POS System and Inventory Management System</button>
+                <button className='font-noto text-[12px] text-left py-[10px] border-b border-black hover:text-[#9c9c9c] transition truncate'>Ateneo Library Catalog</button>
               </div>
               <button className='w-[160px] px-[10px] py-[2px] mt-3 font-ibm text-[14px] rounded-full border border-black flex justify-between hover:bg-black hover:text-white transition'>
                 <h1>More</h1>
@@ -173,6 +175,7 @@ const app = () => {
                 <button className='font-noto text-[12px] text-left py-[5px] hover:text-[#9c9c9c] transition'>Linkedin</button>
                 <button className='font-noto text-[12px] text-left py-[5px] hover:text-[#9c9c9c] transition'>Pinterest</button>
                 <button className='font-noto text-[12px] text-left py-[5px] hover:text-[#9c9c9c] transition'>Youtube</button>
+                <button className='font-noto text-[12px] text-left py-[5px] hover:text-[#9c9c9c] transition'>Github</button>
               </div>
             </div>
           </div>
