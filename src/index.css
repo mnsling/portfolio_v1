@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  cursor: none !important;
+}
+
 .transition {
   @apply transition-all duration-300 ease-out;
 }
@@ -14,12 +18,7 @@
 
 /* Firefox */
 .custom-scrollbar {
-  scrollbar-width: auto;
+  scrollbar-width: none;
   scrollbar-color: #c5c5c5 #ffffff;
-}
-
-/* Firefox */
-.custom-scrollbar2 {
-  scrollbar-width:none;
-  scrollbar-color: #c5c5c5 #ffffff;
+  scroll-behavior: smooth;
 }
