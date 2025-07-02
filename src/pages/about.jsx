@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom'
 import ADDU from '../assets/ateneo.jpg'
 import MCM from '../assets/mapua.jpg'
 import PASD from '../assets/sakya.jpg'
+import H1 from '../assets/hobby1.jpg'
+import H2 from '../assets/hobby2.jpg'
+import H3 from '../assets/hobby3.jpg'
+import H4 from '../assets/hobby4.jpg'
+import H5 from '../assets/hobby5.jpg'
+import H6 from '../assets/hobby6.jpg'
+
 
 const about = () => {
   return (
@@ -33,15 +40,15 @@ const about = () => {
                 on coding; however, I discovered a passion for frontend development due to its creative elements, particularly in website design and UI/UX design..</p>
             </div>
             <div className='w-full flex flex-col gap-20 justify-end'>
-              <h1 className='font-poppins text-[30px] leading-7 tracking-tight'>Educational<br />Information</h1>
-              <div className='pl-[38px] flex flex-col gap-32'>
+              <h1 className='font-poppins text-[30px] leading-7 tracking-tight'>Educational<br />History</h1>
+              <div className='pl-[38px] flex flex-col gap-20'>
                 <div className='w-full h-[435px] flex gap-32'>
                   <div className='w-[440px] h-full flex flex-col gap-4'>
                     <div className='flex flex-col leading-7'>
                       <h1 className='text-[22px] font- tracking-tight'>Ateneo de Davao University</h1>
                       <h1 className='text-[15px] font-ibmmono'>2020 - PRESENT</h1>
                     </div>
-                    <p className='text-[14px] text-[#777777] text-justify font-noto'>At Ateneo de Davao University, I started in Business Management, earning a 3.53 QPI and a spot on the President’s
+                    <p className='text-[14px] text-[#777777] font-noto'>At Ateneo de Davao University, I started in Business Management, earning a 3.53 QPI and a spot on the President’s
                       List, before shifting to Computer Science. Since then, I’ve earned two Dean’s List awards, developed a POS and inventory system with my groupmates, and recently completed my internship
                       at Gray Lemon Tech as a Fullstack Software Engineer.</p>
                     <div className='flex flex-col gap-1'>
@@ -74,7 +81,7 @@ const about = () => {
                       <h1 className='text-[22px] font- tracking-tight'>Malayan Colleges Mindanao</h1>
                       <h1 className='text-[15px] font-ibmmono'>2018 - 2020</h1>
                     </div>
-                    <p className='text-[14px] text-[#777777] text-justify font-noto'>At Malayan Colleges Mindanao, I was part of the pioneering batch and an ABM honors student in Grades 11 and 12. I led a
+                    <p className='text-[14px] text-[#777777] font-noto'>At Malayan Colleges Mindanao, I was part of the pioneering batch and an ABM honors student in Grades 11 and 12. I led a
                       mini art and photobooth business, won 1st runner-up in a poster-making contest, and represented MCM ABM at Ateneo’s Siklab poster-making competition.</p>
                     <div className='flex flex-col gap-1'>
                       <div className='flex flex-col leading-5'>
@@ -105,7 +112,7 @@ const about = () => {
                       <h1 className='text-[22px] font- tracking-tight'>Philippine Academy of Sakya</h1>
                       <h1 className='text-[15px] font-ibmmono'>2005 - 2018</h1>
                     </div>
-                    <p className='text-[14px] text-[#777777] text-justify font-noto'>At Philippine Academy of Sakya Davao, I was an average student in my elementary years, but in high school, I worked my
+                    <p className='text-[14px] text-[#777777] font-noto'>At Philippine Academy of Sakya Davao, I was an average student in my elementary years, but in high school, I worked my
                       way closer to the honors list and finally earned a spot in Grades 9 and 10. During my last two years, I also served as art director for a school event, designing the stage backdrop, a
                       project my teachers entrusted to me because they believed in my artistic skills.</p>
                     <div className='flex flex-col gap-1'>
@@ -130,6 +137,60 @@ const about = () => {
                     </div>
                   </div>
                   <div className='w-[900px] h-[90%] bg-cover bg-center' style={{ backgroundImage: `url(${PASD})` }} />
+                </div>
+              </div>
+            </div>
+            <div className='w-full flex flex-col gap-5 justify-end pb-40'>
+              <div className='w-full flex flex-col gap-20'>
+                <h1 className='font-poppins text-[30px] leading-7 tracking-tight'>
+                  Life Outside<br />Tech
+                </h1>
+                <div className='w-full flex gap-20'>
+                  <p className='w-[440px] font-noto text-[14px] pl-[38px]'>
+                    A glimpse of my human side—beyond the digital and into the part of me that still feels, learns, and grows in a world moving fast toward the future.
+                  </p>
+                  <div className='w-[902px] grid grid-cols-2 gap-x-20 gap-y-10'>
+                    <div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H1})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Traveling</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>Traveling resets my system, like witnessing the world for the first time with eyes wide open and the clarity to truly appreciate every detail, unlike a newborn still decoding the 
+                          signals of existence.</p>
+                      </div>
+                    </div>
+                    <div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H2})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Sketching</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>I can’t fully explain it, but sketching makes me calm and at ease. There’s something surreal about creating art with my own hands and knowing I have the ability to bring ideas to life.</p>
+                      </div>
+                    </div><div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H3})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Photography / Videography</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>I love capturing moments, whether it’s traveling or a simple day out with family. Through my lenses, even ordinary scenes reveal something unexpected or amusing, turning fleeting moments into 
+                          memories worth keeping.</p>
+                      </div>
+                    </div><div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H4})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Cleaning / Organizing</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>When boredom strikes, I find myself cleaning and rearranging my space, transforming it into something new. There’s a quiet satisfaction in seeing everything in order, a sense of clarity when the world around me feels clean and aligned.</p>
+                      </div>
+                    </div><div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H5})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Playing Soccer / Badminton</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>I used to play soccer in high school until an injury made me step away from it. Now in college, I play badminton for movement and joy, not competition. I’ve never been drawn to the pressure of winning—just the rhythm of play itself.</p>
+                      </div>
+                    </div><div className='flex flex-col gap-3'>
+                      <div className='w-[431px] h-[215px] bg-center bg-cover' style={{ backgroundImage: `url(${H6})` }} />
+                      <div className='flex flex-col ga-2'>
+                        <h1 className='text-[22px] font-noto tracking-tight'>Being a Fan</h1>
+                        <p className='text-[13px] text-[#777777] font-noto tracking-tight'>Whether it’s a TV series, K-pop, or wrestling, being a fan keeps me inspired and entertained. I admire the craft behind what they create and hope one day to experience their worlds in person at live events.</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
