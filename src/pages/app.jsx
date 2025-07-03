@@ -18,10 +18,10 @@ const app = () => {
       transition={{ duration: 0.5 }}
     >
       <div className='h-screen w-screen'>
-        <div className='h-full pt-[110px] bg-white flex justify-center'>
-          <div className='h-full w-[1720px] mx-[40px] bg-white flex gap-10'>
+        <div className=' px-[10px] h-full pt-[110px] bg-white flex justify-center'>
+          <div className='h-full w-full xl:w-[1720px] mx-[40px] bg-white flex gap-10'>
             <div className='h-full w-full md:w-[300px] flex-shrink-0 bg-white flex flex-col gap-16 overflow-auto custom-scrollbar'>
-              <div className='flex flex-col gap-8'>
+              <div className='w-full flex flex-col gap-8'>
                 <h1 className='text-[38px] font-poppins font-bold tracking-tighter leading-9'>Nick</h1>
                 <div className='flex flex-col gap-2'>
                   <h1 className='font-ibmmono text-[18px] leading-5 tracking-tighter'>Where Art Breathes<br />in Code.</h1>

@@ -9,7 +9,7 @@ const hero = () => {
                 {projectsData.map((project) => (
                     <button
                         key={project.id}
-                        className='w-full h-[65vw] md:h-[38vw] xl:h-[30vw] flex flex-col gap-2 group'
+                        className='w-full h-[85vw] md:h-[38vw] xl:h-[30vw] flex flex-col gap-2 group'
                     >
                         <div className='relative w-full h-full'>
                             <div
@@ -18,14 +18,14 @@ const hero = () => {
                             />
                             <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300'></div>
                         </div>
-                        <div className='flex flex-col leading-6 text-left'>
-                            <h1 className='text-[20px] font-ibmmono tracking-tight'>{project.title}</h1>
-                            <p className='text-[14px] font-ibm'>{project.description}</p>
+                        <div className='flex flex-col leading-6 text-left gap-2'>
+                            <h1 className='text-[20px] font-ibmmono tracking-tight leading-5'>{project.title}</h1>
+                            <p className='text-[12px] md:text-[14px] font-ibm leading-5'>{project.description}</p>
                         </div>
                     </button>
                 ))}
             </div>
-            <div className='w-full flex justify-center mt-[20px]'>
+            <div className='w-full flex justify-start md:justify-center mt-[20px]'>
                 <Link
                     to="/projects"
                     className='w-[160px] px-[10px] py-[2px] mt-3 font-ibm text-[14px] rounded-full border border-black flex justify-between hover:bg-black hover:text-white transition'
