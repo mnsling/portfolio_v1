@@ -1,9 +1,10 @@
 import { stackData } from '../data/stackdata';
+import Arrow from '../../assets/arrow-right.svg'
 
 const techstack = () => {
     return (
         <div className='flex flex-col gap-5 pb-[20px] border-b border-black'>
-            <h1 className='text-[23px] font-poppins tracking-tighter'>🡢 Tech Stack</h1>
+            <h1 className='text-[23px] font-poppins tracking-tighter flex items-center gap-2'><img src={Arrow} className='w-5 h-5'/>Tech Stack</h1>
             <div className='flex flex-col gap-1'>
                 {stackData.map((row, i) => (
                     <div className='flex gap-1' key={i}>

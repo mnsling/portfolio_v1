@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { updatesData } from '../data/updatesdata'
+import Arrow from '../../assets/arrow-right.svg'
 
 const Updates = () => {
   // Get the latest 4 updates (assuming newest are first in the array)
@@ -8,7 +9,7 @@ const Updates = () => {
 
   return (
     <div className='flex flex-col gap-4'>
-      <h1 className='text-[23px] font-poppins tracking-tighter'>🡢 Updates</h1>
+      <h1 className='text-[23px] font-poppins tracking-tighter flex items-center gap-2'><img src={Arrow} className='w-5 h-5'/> Updates</h1>
       <div className='flex flex-col'>
         {latestUpdates.map((update, index) => (
           <button
