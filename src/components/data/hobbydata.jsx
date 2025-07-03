@@ -20,7 +20,7 @@ export const hobbiesData = [
   },
   {
     title: 'Photography / Videography',
-    description: `I love capturing moments, whether it’s traveling or a simple day out with family. Through my lenses, even ordinary scenes reveal something unexpected or amusing, turning fleeting moments into memories worth keeping.`,
+    description: `I love capturing moments not professionally, whether it’s traveling or a simple day out with family. Through my lenses, even ordinary scenes reveal something unexpected or amusing, turning fleeting moments into memories worth keeping.`,
     image: H3,
   },
   {

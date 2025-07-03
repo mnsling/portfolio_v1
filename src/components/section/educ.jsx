@@ -1,5 +1,5 @@
 import React from 'react'
-import { educationData } from '../components/data/educdata'
+import { educationData } from '../data/educdata'
 
 const EducationalHistory = () => {
   return (

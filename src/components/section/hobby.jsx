@@ -1,5 +1,5 @@
 import React from 'react'
-import { hobbiesData } from '../components/data/hobbydata'
+import { hobbiesData } from '../data/hobbydata'
 
 const Hobbies = () => {
   return (
