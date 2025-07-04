@@ -2,83 +2,75 @@
 
 export const updatesData = [
   {
-    date: "2025/03/28",
+    date: "2025/06/23",
     title: "Gray Lemon UI Reimagined: Figma Prototype Nears Completion",
-    description: "A retro-futuristic overhaul of the Gray Lemon Employee Platform crafted in Figma. Features high-contrast visuals and micro-interactions for a neon-lit user experience.",
-    collaborators: ["Kai Takahashi", "Elise Tron"],
+    description: "As a personal project, I re-engineered the UI for the company’s employee management system, transforming it into a sleek, minimalistic, and futuristic design. The new interface includes dedicated dashboards for both employees and administrators, ensuring that all critical information and functionalities are accessible based on user roles. Role-specific privileges and permissions remain intact, providing a secure and efficient user experience tailored for organizational needs.",
+    collaborators: ["Nicklaus Ling"],
     github: "https://github.com/neonvelocity/gl-ui",
     website: "https://graylemon-ui.com"
   },
   {
-    date: "2025/02/17",
+    date: "2025/06/20",
     title: "Gray Lemon’s Employee System Hits New Milestone with Core Features Done",
-    description: "A futuristic employee management platform for Gray Lemon, merging modular UI, streamlined user flows, and robust data visualization.",
-    collaborators: ["Orion Lee", "Miko Nova"],
+    description: "Successfully completed my 200-hour internship by implementing core features, including advanced calendar enhancements to display clock-in and clock-out statuses across all user roles. Additionally, conducted in-depth research on integrating Microsoft Graph API to enable seamless synchronization between the system’s calendar and external services, expanding the platform’s interoperability and feature set.",
+    collaborators: ["Nicklaus Ling", "Andrew Tan", "Nikkita Yee", "Zuleika Yee"],
     github: "https://github.com/cosmoflow/glems",
     website: "https://graylemon.com/ems"
   },
   {
-    date: "2024/11/04",
-    title: "Officially Onboarded as an Intern at Gray Lemon Tech.",
-    description: "A minimal yet vibrant portfolio reflecting a digital artist’s journey, blending retro synth aesthetics with modern web performance.",
-    collaborators: ["Solo Project"],
-    github: "https://github.com/atlasrise/portfolio",
-    website: "https://nick-portfolio.com"
-  },
-  {
-    date: "2025/01/15",
+    date: "2025/04/29",
     title: "CALA App Prototype Ready: UI for Calamansi Disease Detection Completed",
-    description: "A futuristic mobile prototype in Figma detecting calamansi leaf diseases using AI-driven models. Designed with vibrant botanical color palettes.",
-    collaborators: ["Lara Quasar", "Vince Pulse"],
+    description: "Designed the UI for our thesis capstone project, which centers on developing a mobile app for calamansi leaf disease detection. I created a gamified interface where users can scan a leaf to identify diseases and unlock corresponding information, adding an engaging and interactive layer to the diagnostic experience before moving on to the full app implementation.",
+    collaborators: ["Nicklaus Ling", "Ram Nacar", "Jose Idpan"],
     github: "https://github.com/biovista/cala-detection",
     website: "https://biovista.app"
   },
   {
-    date: "2025/05/02",
+    date: "2025/04/27",
+    title: "Officially Onboarded as an Intern at Gray Lemon Tech.",
+    description: "I was accepted as an intern at a company and received a preliminary task before officially starting next week. In preparation, I’m diving into their tech stack, exploring a codebase built with React.js, Node.js, Express, and Prisma, to get familiar with their development workflow and architecture.",
+    collaborators: ["..."],
+    github: "https://github.com/atlasrise/portfolio",
+    website: "https://nick-portfolio.com"
+  },
+  {
+    date: "2025/02/28",
     title: "UI/UX Creators Rock IT Week with Minecraft Companion App",
-    description: "An upcoming merge of frontend and backend systems for Gentle Monster’s digital showcase, bridging seamless animations and robust APIs.",
-    collaborators: ["Nico Wave", "Aria Circuit"],
+    description: " Led the team and designed a sleek, ultra-minimalistic companion app for Minecraft, focusing on clean UI and streamlined user experience. Built a fully functional prototype in Figma within a single day. Judges noted the design was perhaps too minimalistic for gaming standards, but it showcased rapid prototyping skills and modern UX practices for mobile app interfaces and won 2nd runner up.",
+    collaborators: ["Nicklaus Ling", "Francis Oriel", "Jose Idpan"],
     github: "https://github.com/quantumthreads/gm-integration",
     website: "https://gentlemonster-tech.com"
   },
   {
     date: "2024/10/21",
-    title: "Gentle Monster Project Preps for Frontend-Backend Integration",
-    description: "A sleek Figma prototype for Gentle Monster, fusing kinetic typography and bold color transitions in a hyper-modern digital storefront.",
-    collaborators: ["Zion Flux"],
+    title: "Gentle Monster Frontend Deployed Backend Integration in Progress",
+    description: "Brought my Figma UI prototype to life by developing the full frontend using React.js and Tailwind CSS. Implemented all key features and pages, including the product catalog, detail views, and a functional cart system. The next phase involves backend and database integration to power dynamic data and transactions. Stay tuned for updates.",
+    collaborators: ["Nicklaus Ling"],
     github: "https://github.com/hyperview/gm-figma",
     website: "https://gentlemonster-figma.com"
   },
   {
-    date: "2024/09/05",
+    date: "2024/12/26",
     title: "Gentle Monster UI Prototype Designed for Modern Digital Experience",
-    description: "A modern POS and inventory app featuring real-time analytics and a neon-themed dashboard for retail businesses.",
-    collaborators: ["Mira Neon", "Jett Pulse"],
+    description: "I designed a custom minimalistic website for the iconic brand Gentle Monster, my first full web project built in Figma. I explored advanced prototyping, micro-interactions, and smooth animations to achieve a modern, tech-driven yet minimal aesthetic, blending sleek visuals with an engaging user experience.",
+    collaborators: ["Nicklaus Ling"],
     github: "https://github.com/digitrack/4u-pos",
     website: "https://4upos.com"
   },
   {
-    date: "2024/08/14",
+    date: "2024/12/09",
     title: "4U POS & Inventory System Rolls Out Updated Interface and Features",
-    description: "A full-stack web system for Ateneo’s CS library management, with futuristic UI designs and advanced search capabilities.",
-    collaborators: ["Ken Astro", "Valerie Byte"],
+    description: "Developed a POS and inventory management system for 4U Grocery using full-stack technologies. The system includes features for adding and updating products in the inventory, seamless integration with POS scanner hardware for efficient product transactions, and comprehensive reporting tools for sales and cash summaries.",
+    collaborators: ["Nicklaus Ling", "George Balungay", "Daniel Gallego"],
     github: "https://github.com/codelibra/addu-cs-lib",
     website: "https://adducslibrary.com"
   },
   {
-    date: "2024/07/01",
-    title: "SYNTHEX : Ateneo CS Library UI Design",
-    description: "Ateneo CS Library Full-Stack Build Progressing Toward Deployment",
-    collaborators: ["Solo Project"],
+    date: "2024/05/18",
+    title: "CS3246 // Ateneo CS Library Catalog Web Application Development",
+    description: "An intuitive full-stack web app designed to modernize book borrowing at the Ateneo CS Library. Students can easily borrow and return books online while admins have full control to monitor activity, flag overdue or damaged returns, and manage user fines seamlessly. This platform brings convenience, accountability, and a touch of tech to the library experience.",
+    collaborators: ["Nicklaus Ling", "Aldous Omictin", "Daniel Gallego"],
     github: "https://github.com/synthex/addu-ui",
     website: "https://addu-ui.com"
   },
-  {
-    date: "2023/12/12",
-    title: "PIXELLAUNCH : My First Website Design",
-    description: "Ateneo Library UI Mockups Finalized for Upcoming Integration",
-    collaborators: ["Solo Project"],
-    github: "https://github.com/pixellaunch/first-site",
-    website: "https://myfirstwebsite.com"
-  }
 ];
