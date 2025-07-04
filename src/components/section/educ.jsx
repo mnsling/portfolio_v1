@@ -3,22 +3,26 @@ import { educationData } from '../data/educdata'
 
 const EducationalHistory = () => {
   return (
-    <div className='w-full flex flex-col gap-20 justify-end'>
-      <h1 className='font-poppins text-[30px] leading-7 tracking-tight'>
-        Educational<br />History
+    <div className='w-full flex flex-col gap-10 md:gap-20 justify-end'>
+      <h1 className='font-poppins text-[22px] md:text-[30px] leading-7 tracking-tight'>
+        Educational History
       </h1>
-      <div className='pl-[38px] flex flex-col gap-20'>
+      <div className='h-full xl:pl-[38px] flex flex-col gap-20 lg:pl-[38px]'>
         {educationData.map((edu, index) => (
           <div
             key={index}
-            className='w-full h-[435px] flex gap-32'
+            className='w-full h-full flex flex-col gap-2 lg:flex-row lg:gap-10'
           >
-            <div className='w-[440px] h-full flex flex-col gap-4'>
+            <div
+              className='w-full h-[50vw] bg-cover bg-center lg:hidden'
+              style={{ backgroundImage: `url(${edu.image})` }}
+            />
+            <div className='w-full h-fit flex flex-col gap-4'>
               <div className='flex flex-col leading-7'>
-                <h1 className='text-[22px] font- tracking-tight'>{edu.school}</h1>
+                <h1 className='text-[22px] font-noto font-light tracking-tight'>{edu.school}</h1>
                 <h1 className='text-[15px] font-ibmmono'>{edu.period}</h1>
               </div>
-              <p className='text-[14px] text-[#777777] font-noto'>{edu.description}</p>
+              <p className='text-[12px] md:text-[14px] text-[#777777] font-noto'>{edu.description}</p>
               <div className='flex flex-col gap-1'>
                 <div className='flex flex-col leading-5'>
                   <h1 className='text-[12px] font-noto font-medium'>Address</h1>
@@ -43,7 +47,7 @@ const EducationalHistory = () => {
               </div>
             </div>
             <div
-              className='w-[900px] h-[90%] bg-cover bg-center'
+              className='hidden lg:block w-full h-[90%] bg-cover bg-center'
               style={{ backgroundImage: `url(${edu.image})` }}
             />
           </div>
