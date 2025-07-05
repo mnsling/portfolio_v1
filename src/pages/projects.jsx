@@ -115,7 +115,7 @@ const Projects = () => {
             className="fixed top-0 left-0 w-full h-full bg-white backdrop-blur-md flex justify-start items-center z-50"
             onClick={() => setSelectedProject(null)}
           >
-            <div className='w-full flex flex-col lg:flex-row justify-start items-center gap-5 lg:gap-20 custom-scrollbar pt-[85px] px-5'>
+            <div className='w-full flex flex-col lg:flex-row justify-start items-center gap-5 lg:gap-20 custom-scrollbar pt-[185px] px-5'>
               <div className='h-[800px] w-full lg:w-[70%] overflow-y-auto'>
                 <AnimatePresence>
                   {showText && (
