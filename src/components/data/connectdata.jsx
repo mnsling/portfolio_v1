@@ -1,27 +1,27 @@
 const connectData = [
   {
     platform: "Facebook",
-    url: "https://facebook.com/yourprofile"
+    url: "https://www.facebook.com/nicklaus.ling/"
   },
   {
     platform: "Instagram",
-    url: "https://instagram.com/yourprofile"
+    url: "https://www.instagram.com/lingnicklaus/"
   },
   {
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/yourprofile"
+    url: "https://www.linkedin.com/in/mike-nicklaus-ling-9a2695362/"
   },
   {
     platform: "Pinterest",
-    url: "https://pinterest.com/yourprofile"
+    url: "https://ph.pinterest.com/lingnicklaus/_profile/"
   },
   {
     platform: "YouTube",
-    url: "https://youtube.com/@yourchannel"
+    url: "https://www.youtube.com/@mikenicklausling1625"
   },
   {
     platform: "GitHub",
-    url: "https://github.com/yourusername"
+    url: "https://github.com/mnsling"
   }
 ];
 

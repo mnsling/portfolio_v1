@@ -18,9 +18,9 @@ const hero = () => {
                             />
                             <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-30 transition duration-300'></div>
                         </div>
-                        <div className='flex flex-col leading-6 text-left gap-2'>
-                            <h1 className='text-[20px] font-ibmmono tracking-tight leading-5'>{project.title}</h1>
-                            <p className='text-[12px] md:text-[14px] font-ibm leading-5'>{project.description}</p>
+                        <div className='flex flex-col leading-6 text-left gap-1'>
+                            <h1 className='text-[20px] font-noto tracking-tight leading-5'>{project.title}</h1>
+                            <p className='text-[12px] md:text-[14px] font-noto leading-5'>{project.description}</p>
                         </div>
                     </button>
                 ))}

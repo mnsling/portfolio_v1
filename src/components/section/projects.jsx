@@ -26,7 +26,7 @@ const Updates = () => {
         ))}
       </div>
       <Link
-        to="/updates"
+        to="/projects"
         className='w-[160px] px-[10px] py-[2px] mt-3 font-ibm text-[14px] rounded-full border border-black flex justify-between hover:bg-black hover:text-white transition'
       >
         <h1>More</h1>
