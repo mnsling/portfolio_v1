@@ -99,7 +99,7 @@ const Projects = () => {
               ))}
             </div>
           ) : (
-            <div className="text-center text-gray-500 text-[50px] font-thin font-poppins tracking-tighter mt-60">
+            <div className="text-center text-gray-500 text-[20px] lg:text-[50px] font-thin font-poppins tracking-tighter mt-32 lg:mt-60">
               Content yet to be uploaded.
             </div>
           )}
