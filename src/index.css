@@ -19,6 +19,13 @@
 /* Firefox */
 .custom-scrollbar {
   scrollbar-width: none;
-  scrollbar-color: #c5c5c5 #ffffff;
+  scrollbar-color: #ffffff00 #ffffff00;
   scroll-behavior: smooth;
+}
+
+.custom-truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

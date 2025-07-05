@@ -11,7 +11,7 @@ const ProjectsNavbar = ({ onCategoryChange, activeCategory }) => {
   ];
 
   return (
-    <div className="w-full flex flex-wrap gap-10 font-ibmmono text-[15px]">
+    <div className="w-full flex flex-wrap gap-5 leading-3 lg:gap-10 font-ibmmono text-[15px]">
       {categories.map((cat) => (
         <button
           key={cat.value}

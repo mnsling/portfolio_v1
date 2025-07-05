@@ -18,7 +18,7 @@ const app = () => {
       transition={{ duration: 0.5 }}
     >
       <div className='h-screen w-screen'>
-        <div className=' px-[10px] h-full pt-[110px] bg-white flex justify-center'>
+        <div className='h-full w-full px-[10px] pt-[110px] bg-white flex justify-center'>
           <div className='h-full w-full xl:w-[1720px] mx-[40px] bg-white flex gap-10'>
             <div className='h-full w-full md:w-[300px] flex-shrink-0 bg-white flex flex-col gap-16 overflow-auto custom-scrollbar'>
               <div className='w-full flex flex-col gap-8'>
