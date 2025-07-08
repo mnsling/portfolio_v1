@@ -24,7 +24,7 @@ const Projects = () => {
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.5 }}
     >
-      <div className='w-full flex flex-col gap-16 pt-[110px] md:px-[40px] md:justify-center'>
+      <div className='w-full flex flex-col gap-16 pt-[110px] md:px-[40px] items-center justify-center'>
         <div className='w-full xl:w-[70%] flex flex-col gap-10 px-[10px]'>
           <div className='w-full h-fit flex items-end'>
             <Link to="/" className='text-[38px] font-poppins font-bold tracking-tighter leading-9'>
@@ -39,10 +39,10 @@ const Projects = () => {
           />
         </div>
 
-        <div className='w-full h-full grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-10 pb-20'>
+        <div className='w-full lg:w-[70%] h-full grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-10 pb-20'>
           {currentProjects.map((project) => (
             <div key={project.id} className='flex flex-col gap-3 px-[10px]'>
-              <div className='w-full h-[50vw] lg:h-[28vw] bg-black overflow-hidden'>
+              <div className='w-full h-[50vw] lg:h-[20vw] bg-black overflow-hidden'>
                 <img
                   src={project.main || project.image}
                   alt={project.title}
