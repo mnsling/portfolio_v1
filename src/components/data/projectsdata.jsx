@@ -38,7 +38,7 @@ export const projectsByCategory = {
       id: 1,
       title: 'Gray Lemon: Workforce UX Reinvented',
       description:
-        'I designed a brand new, sleek interface for Gray Lemon Tech’s employee management system. During my internship, I didn’t have enough time to revamp the entire platform, so I turned it into a personal project to fully realize my vision.',
+        'I created a modern interface for Gray Lemon Tech’s employee system, turning it into a personal project to fully realize my design vision.',
       caption:
         'Future-ready UI for effortless workforce management.',
       github: 'https://github.com/example/gray-lemon-figma',
@@ -55,7 +55,7 @@ export const projectsByCategory = {
       id: 2,
       title: 'Gentle Monster Re-Engineered Website',
       description:
-        'This is my interpretation of a sleek, contemporary e-commerce platform designed for an iconic brand like Gentle Monster. The focus is on a clean aesthetic and seamless user experience, though backend functionality and database integration are still in progress.',
+        'A sleek e-commerce concept for Gentle Monster, focused on clean design and seamless user experience.',
       caption: 'A fresh digital face for an iconic brand',
       github: 'https://github.com/example/gray-lemon-figma',
       website: 'https://graylemon.example.com',
