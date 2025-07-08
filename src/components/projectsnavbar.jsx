@@ -11,20 +11,22 @@ const ProjectsNavbar = ({ onCategoryChange, activeCategory }) => {
   ];
 
   return (
-    <div className="w-full flex flex-wrap gap-5 leading-3 lg:gap-10 font-ibmmono text-[15px]">
-      {categories.map((cat) => (
-        <button
-          key={cat.value}
-          onClick={() => onCategoryChange(cat.value)}
-          className={`transition ${
-            activeCategory === cat.value
-              ? 'text-black underline'
-              : 'text-[#777777]'
-          }`}
-        >
-          {cat.label}
-        </button>
-      ))}
+    <div className="w-full overflow-x-auto pb-2">
+      <div className="flex gap-5 lg:gap-10 font-ibmmono text-[15px] whitespace-nowrap px-2">
+        {categories.map((cat) => (
+          <button
+            key={cat.value}
+            onClick={() => onCategoryChange(cat.value)}
+            className={`transition ${
+              activeCategory === cat.value
+                ? 'text-black underline'
+                : 'text-[#777777]'
+            }`}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

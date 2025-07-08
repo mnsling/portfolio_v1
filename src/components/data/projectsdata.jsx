@@ -33,11 +33,29 @@ export const projectsData = [
 
 // NEW - Grouped projects by category
 export const projectsByCategory = {
-  frontend: [
+  uiux: [
     {
       id: 1,
+      title: 'Gray Lemon: Workforce UX Reinvented',
+      description:
+        'I designed a brand new, sleek interface for Gray Lemon Tech’s employee management system. During my internship, I didn’t have enough time to revamp the entire platform, so I turned it into a personal project to fully realize my vision.',
+      caption:
+        'Future-ready UI for effortless workforce management.',
+      github: 'https://github.com/example/gray-lemon-figma',
+      website: 'https://graylemon.example.com',
+      main: GL,
+      images: [GL1, GL2, GL3, GL4, GL5, GL6],
+      client: 'Concept',
+      service: 'Frontend Development, UI Engineering',
+      industry: 'Enterprise Solutions',
+    },
+  ],
+  frontend: [
+    {
+      id: 2,
       title: 'Gentle Monster Re-Engineered Website',
-      description: 'This is my interpretation of a sleek, contemporary e-commerce platform designed for an iconic brand like Gentle Monster. The focus is on a clean aesthetic and seamless user experience, though backend functionality and database integration are still in progress.',
+      description:
+        'This is my interpretation of a sleek, contemporary e-commerce platform designed for an iconic brand like Gentle Monster. The focus is on a clean aesthetic and seamless user experience, though backend functionality and database integration are still in progress.',
       caption: 'A fresh digital face for an iconic brand',
       github: 'https://github.com/example/gray-lemon-figma',
       website: 'https://graylemon.example.com',
@@ -46,23 +64,8 @@ export const projectsByCategory = {
       images: [GM1, GM2, GM3, GM4, GM5],
       service: 'Web Development, Digital Branding',
       industry: 'Fashion & Retail',
-    }
+    },
   ],
-  uiux: [
-    {
-    id: 1,
-    title: 'Gray Lemon: Workforce UX Reinvented',
-    description: 'I designed a brand new, sleek interface for Gray Lemon Tech’s employee management system. During my internship, I didn’t have enough time to revamp the entire platform, so I turned it into a personal project to fully realize my vision.',
-    caption: 'Engineered a future-ready UI for employee management, transforming complex data into seamless digital experiences.',
-    github: 'https://github.com/example/gray-lemon-figma',
-    website: 'https://graylemon.example.com',
-    main: GL,
-    images: [GL1, GL2, GL3, GL4, GL5, GL6],
-    client: 'Concept',
-    service: 'Frontend Development, UI Engineering',
-    industry: 'Enterprise Solutions',
-  },
-],
   branding: [],
   graphicdesign: [],
   motiondesign: [],
