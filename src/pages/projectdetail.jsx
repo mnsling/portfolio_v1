@@ -68,7 +68,7 @@ const ProjectDetail = () => {
                 className="fixed bottom-5 left-1/2 transform -translate-x-1/2 h-fit w-fit px-28 py-1 leading-4 rounded-full text-[12px] font-poppins font-light text-white bg-black/40 backdrop-blur-md border border-white/20 transition z-50 xl:hidden"
                 aria-label="Close Project Detail"
             >
-                CLOSE
+                BACK
             </button>
 
             {/* Mobile Details */}

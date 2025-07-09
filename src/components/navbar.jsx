@@ -26,7 +26,7 @@ const Navbar = () => {
             <h1>/</h1>
             <button>JP</button>
           </div>
-          <Link to="/contact" className='hover:text-[#9c9c9c] transition'>Contacts</Link>
+          <Link to="/contacts" className='hover:text-[#9c9c9c] transition'>Contacts</Link>
         </div>
       </div>
 
