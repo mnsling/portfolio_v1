@@ -28,10 +28,12 @@ const Contacts = () => {
                   I’m open to new opportunities, collaborations, and exciting projects. If you’d like to discuss working
                   together, interviews, internships, or any creative ideas, feel free to get in touch via the form below. I’d love to hear from you!
                 </p>
-                <button className='flex justify-between mt-8 font-noto text-[14px] tracking-tight py-2 border-b border-black hover:text-[#777777] transition'>
-                  <h1>Download My CV & Contact Me</h1>
-                  <h1 className='rotate-180'>⟵</h1>
-                </button>
+                <a href="/CV_Ling.pdf" download>
+                  <button className='w-full flex justify-between mt-8 font-noto text-[14px] tracking-tight py-2 border-b border-black hover:text-[#777777] transition'>
+                    <h1>Download My CV & Contact Me</h1>
+                    <h1 className='rotate-180'>⟵</h1>
+                  </button>
+                </a>
               </div>
             </div>
             <div className='w-full flex flex-col items-start gap-40'>
