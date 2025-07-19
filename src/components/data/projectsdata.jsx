@@ -1,5 +1,6 @@
-import GL from '../../assets/thumbnail/Thumbnail2.png';
-import GM from '../../assets/thumbnail/Thumbnail.jpg';
+import GL from '../../assets/thumbnail/Thumbnail.png';
+import GM from '../../assets/thumbnail/Thumbnail2.jpg';
+import U4 from '../../assets/thumbnail/Thumbnail3.png';
 import GM1 from '../../assets/GentleMonsterWebsite/1.png'
 import GM2 from '../../assets/GentleMonsterWebsite/2.png'
 import GM3 from '../../assets/GentleMonsterWebsite/3.png'
@@ -11,14 +12,20 @@ import GL3 from '../../assets/GrayLemon/3.png'
 import GL4 from '../../assets/GrayLemon/4.png'
 import GL5 from '../../assets/GrayLemon/5.png'
 import GL6 from '../../assets/GrayLemon/6.png'
+import U41 from '../../assets/4U/1.png'
+import U42 from '../../assets/4U/2.png'
+import U43 from '../../assets/4U/3.png'
+import U44 from '../../assets/4U/4.png'
+import U45 from '../../assets/4U/5.png'
+import U46 from '../../assets/4U/6.png'
+
 
 
 export const projectsData = [
   {
     id: 1,
     title: 'Gray Lemon: Workforce UX Reinvented',
-    description:
-      'Turning workplace complexity into an elegant, user-friendly experience for teams.',
+    description:'Turning workplace complexity into an elegant, user-friendly experience for teams.',
     image: GL,
     link: '/projects',
   },
@@ -27,6 +34,13 @@ export const projectsData = [
     title: 'Gentle Monster Re-Engineered Website',
     description: 'An icon reborn for the web.',
     image: GM,
+    link: '/projects',
+  },
+  {
+    id: 3,
+    title: '4U Grocery // POS and Inventory Management System',
+    description: 'Manages checkout transactions and monitors stock levels efficiently.',
+    image: U4,
     link: '/projects',
   },
 ];
@@ -46,7 +60,7 @@ export const projectsByCategory = {
       main: GL,
       images: [GL1, GL2, GL3, GL4, GL5, GL6],
       client: 'Concept',
-      service: 'Frontend Development, UI Engineering',
+      collaborators: ['Nicklaus Ling'],
       industry: 'Enterprise Solutions',
     },
   ],
@@ -62,8 +76,21 @@ export const projectsByCategory = {
       main: GM,
       client: 'Concept',
       images: [GM1, GM2, GM3, GM4, GM5],
-      service: 'Web Development, Digital Branding',
+      collaborators: ['Nicklaus Ling'],
       industry: 'Fashion & Retail',
+    },{
+      id: 3,
+      title: '4U Grocery // POS and Inventory Management System',
+      description:
+        'A clean, efficient web app for handling grocery sales and inventory in real-time.',
+      caption: 'Our first full-stack grocery system—designed from scratch.',
+      github: 'https://github.com/mnsling/4U-POS-Website',
+      website: 'https://4U.example.com',
+      main: U4,
+      client: '4U Grocery (Not Deployed)',
+      images: [U41, U42, U43, U44, U45, U46],
+      collaborators: ['Nicklaus Ling','George Balungay', 'Daniel Gallego'],
+      industry: 'Retail',
     },
   ],
   branding: [],

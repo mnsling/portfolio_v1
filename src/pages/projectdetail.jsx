@@ -99,10 +99,12 @@ const ProjectDetail = () => {
                         </div>
                         <div className="flex flex-col gap-2">
                             <h1 className="pb-2 border-b border-black font-ibmmono text-[13px]">
-                                <TypingText text="[ SERVICE ]" />
+                                <TypingText text="[ COLLABORATORS ]" />
                             </h1>
                             <p className="font-poppins tracking-tight text-[10px] md:text-[13px]">
-                                {project.service}
+                                {project.collaborators.map((name, index) => (
+                                    <div key={index}>{name}</div>
+                                ))}
                             </p>
                         </div>
                         <div className="flex flex-col gap-2">
@@ -177,10 +179,12 @@ const ProjectDetail = () => {
                                 </div>
                                 <div className="flex flex-col gap-2">
                                     <h1 className="pb-2 border-b border-black font-ibmmono">
-                                        <TypingText text="[ SERVICE ]" />
+                                        <TypingText text="[ COLLABORATORS ]" />
                                     </h1>
                                     <p className="font-poppins tracking-tight">
-                                        {project.service}
+                                        {project.collaborators.map((name, index) => (
+                                            <div key={index}>{name}</div>
+                                        ))}
                                     </p>
                                 </div>
                                 <div className="flex flex-col gap-2">
