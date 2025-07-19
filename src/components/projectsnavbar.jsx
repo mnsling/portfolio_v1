@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectsNavbar = ({ onCategoryChange, activeCategory }) => {
   const categories = [
     { label: 'All', value: 'all' },
-    { label: 'Frontend Development', value: 'frontend' },
+    { label: 'Web Development', value: 'web' },
     { label: 'Figma Prototypes', value: 'uiux' },
     { label: 'Branding', value: 'branding' },
     { label: 'Motion Design', value: 'motiondesign' },

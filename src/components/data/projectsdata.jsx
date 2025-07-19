@@ -64,7 +64,7 @@ export const projectsByCategory = {
       industry: 'Enterprise Solutions',
     },
   ],
-  frontend: [
+  web: [
     {
       id: 2,
       title: 'Gentle Monster Re-Engineered Website',
