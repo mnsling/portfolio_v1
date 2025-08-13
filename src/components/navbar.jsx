@@ -40,8 +40,7 @@ const Navbar = () => {
           <Link to="/about" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>About</Link>
           <Link to="/updates" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>Updates</Link>
           <Link to="/projects" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>Projects</Link>
-          <Link to="/services" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>Services</Link>
-          <Link to="/contact" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>Contact</Link>
+          <Link to="/contacts" onClick={closeOverlay} className='hover:text-[#9c9c9c] transition'>Contact</Link>
         </div>
       </div>
     </>

@@ -1,6 +1,7 @@
 import GL from '../../assets/thumbnail/Thumbnail.png';
 import GM from '../../assets/thumbnail/Thumbnail2.jpg';
 import U4 from '../../assets/thumbnail/Thumbnail3.png';
+import CS from '../../assets/thumbnail/Thumbnail4.jpg'
 import GM1 from '../../assets/GentleMonsterWebsite/1.png'
 import GM2 from '../../assets/GentleMonsterWebsite/2.png'
 import GM3 from '../../assets/GentleMonsterWebsite/3.png'
@@ -18,27 +19,36 @@ import U43 from '../../assets/4U/3.png'
 import U44 from '../../assets/4U/4.png'
 import U45 from '../../assets/4U/5.png'
 import U46 from '../../assets/4U/6.png'
+import CS1 from '../../assets/CalaSense/1.png'
+import CS2 from '../../assets/CalaSense/2.png'
 
 
 
 export const projectsData = [
   {
     id: 1,
+    title: 'Calasense Detection Mobile Application Prototype',
+    description:'From feature research to final Figma design, now moving into the coding phase',
+    image: CS,
+    link: '/projects',
+  },
+  {
+    id: 2,
     title: 'Gray Lemon: Workforce UX Reinvented',
     description:'Turning workplace complexity into an elegant, user-friendly experience for teams.',
     image: GL,
     link: '/projects',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Gentle Monster Re-Engineered Website',
     description: 'An icon reborn for the web.',
     image: GM,
     link: '/projects',
   },
   {
-    id: 3,
-    title: '4U Grocery // POS and Inventory Management System',
+    id: 4,
+    title: 'Sleek Interface for Store Management',
     description: 'Manages checkout transactions and monitors stock levels efficiently.',
     image: U4,
     link: '/projects',
@@ -50,7 +60,22 @@ export const projectsByCategory = {
   uiux: [
     {
       id: 1,
-      title: 'Gray Lemon: Workforce UX Reinvented',
+      title: 'CalaSense // A Calamansi Leaf Disease Detection Mobile Application',
+      description:
+        'My team created a leaf disease detection in a form of a mobile app for our thesis project, and I have just finished with the prototype in figma, now its to turn it to code.',
+      caption:
+        'Future-ready UI for effortless workforce management.',
+      github: 'https://github.com/example/gray-lemon-figma',
+      website: 'https://graylemon.example.com',
+      main: CS,
+      images: [CS1, CS2],
+      client: 'Ateneo de Davao University',
+      collaborators: ['Nicklaus Ling', 'Ram Nacar', 'Jose Idpan'],
+      industry: 'Agricultural Technology',
+    },
+    {
+      id: 2,
+      title: 'Gray Lemon // Employee Management System',
       description:
         'I created a modern interface for Gray Lemon Tech’s employee system, turning it into a personal project to fully realize my design vision.',
       caption:
@@ -66,8 +91,8 @@ export const projectsByCategory = {
   ],
   web: [
     {
-      id: 2,
-      title: 'Gentle Monster Re-Engineered Website',
+      id: 3,
+      title: 'Gentle Monster // Concept Redesign',
       description:
         'A sleek e-commerce concept for Gentle Monster, focused on clean design and seamless user experience.',
       caption: 'A fresh digital face for an iconic brand',
@@ -79,7 +104,7 @@ export const projectsByCategory = {
       collaborators: ['Nicklaus Ling'],
       industry: 'Fashion & Retail',
     },{
-      id: 3,
+      id: 4,
       title: '4U Grocery // POS and Inventory Management System',
       description:
         'A clean, efficient web app for handling grocery sales and inventory in real-time.',

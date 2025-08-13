@@ -9,7 +9,6 @@ import About from './pages/about'
 import Updates from './pages/updates'
 import Projects from './pages/projects'
 import ProjectDetail from './pages/projectdetail';
-import Services from './pages/services'
 import Contacts from './pages/contacts'
 import Cursor from './components/cursor'
 
@@ -27,7 +26,6 @@ function App() {
           <Route path="/updates" element={<Updates />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </AnimatePresence>

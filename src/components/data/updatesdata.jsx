@@ -2,6 +2,14 @@
 
 export const updatesData = [
   {
+    date: "2025/08/13",
+    title: "Rebranded CalaSense Calamansi Leaf Disease Detection Mobile App",
+    description: "Researched and added more features to our mobile application and completed the design in figma, now for the coding phase",
+    collaborators: ["Nicklaus Ling, Ram Nacar, Jose Idpan"],
+    github: "https://github.com/neonvelocity/gl-ui",
+    website: "https://graylemon-ui.com"
+  },
+  {
     date: "2025/06/23",
     title: "Gray Lemon UI Reimagined: Figma Prototype Nears Completion",
     description: "As a personal project, I re-engineered the UI for the company’s employee management system, transforming it into a sleek, minimalistic, and futuristic design. The new interface includes dedicated dashboards for both employees and administrators, ensuring that all critical information and functionalities are accessible based on user roles. Role-specific privileges and permissions remain intact, providing a secure and efficient user experience tailored for organizational needs.",
