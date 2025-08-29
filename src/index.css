@@ -1,12 +1,32 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Italiana&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-  cursor: none !important;
+/* -----------------------------
+   Custom cursor only on DESKTOP
+   -----------------------------
+   We hide the system cursor only when <html> has .custom-cursor,
+   AND only at lg+ screens (≥1024px). Below that, normal cursor shows.
+*/
+@media (min-width: 1024px) {
+  html.custom-cursor * { cursor: none !important; }
+
+  /* Keep sensible cursors for interactive elements when custom cursor is active */
+  html.custom-cursor input,
+  html.custom-cursor textarea { cursor: text !important; }
+
+  html.custom-cursor button,
+  html.custom-cursor a,
+  html.custom-cursor [role="button"] { cursor: pointer !important; }
 }
 
+/* -----------------------------
+   Your utilities
+   ----------------------------- */
 .transition {
   @apply transition-all duration-300 ease-out;
 }
@@ -16,7 +36,7 @@
   -webkit-text-stroke: 1px white;
 }
 
-/* Firefox */
+/* Firefox custom scrollbar (hidden) */
 .custom-scrollbar {
   scrollbar-width: none;
   scrollbar-color: #ffffff00 #ffffff00;
