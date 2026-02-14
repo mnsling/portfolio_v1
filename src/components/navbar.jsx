@@ -21,12 +21,7 @@ const Navbar = () => {
           <button className='hover:text-[#9c9c9c] transition' onClick={toggleOverlay}>
             {isOpen ? 'Close' : 'Menu'}
           </button>
-          <div className="flex gap-1">
-            <button>EN</button>
-            <h1>/</h1>
-            <button>JP</button>
-          </div>
-          <Link to="/contacts" className='hover:text-[#9c9c9c] transition'>Contacts</Link>
+          <Link to="/contacts" className='hover:text-[#9c9c9c] transition'>Contact</Link>
         </div>
       </div>
 

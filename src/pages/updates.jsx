@@ -12,7 +12,7 @@ const Updates = () => {
       transition={{ duration: 0.5 }}
     >
       <div className='w-full flex pt-[110px] md:px-[40px] md:justify-center'>
-        <div className='w-full xl:w-[70%] flex flex-col gap-20 md:gap-40 px-[10px]'>
+        <div className='w-full xl:w-[75%] flex flex-col gap-20 md:gap-40 px-[10px]'>
           <div className='w-full h-fit flex items-end'>
             <Link to="/" className='text-[38px] font-poppins font-bold tracking-tighter leading-9'>
               Nick
