@@ -95,10 +95,11 @@ export const projectsByCategory = {
       main: GL,
       images: [GL1, GL2, GL3, GL4, GL5, GL6],
       client: 'Concept',
-      collaborators: ['Nicklaus Ling'],
+      collaborators: [
+        { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
+      ],
       industry: 'Enterprise Solutions',
       figmaEmbed: "https://embed.figma.com/design/iWhWtMCNyWD917usvzgMSq/Gray-Lemon-Dashboard?node-id=0-1&embed-host=share"
-
     },
   ],
   web: [
@@ -117,7 +118,9 @@ export const projectsByCategory = {
       main: GM,
       client: 'Concept',
       images: [GM1, GM2, GM3, GM4, GM5],
-      collaborators: ['Nicklaus Ling'],
+      collaborators: [
+        { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
+      ],
       industry: 'Fashion & Retail',
       figmaEmbed: "https://embed.figma.com/design/GXe1M40aZyil2JfN1x4Yz2/Gentle-Monster-Website?node-id=94-3&embed-host=share"
 
@@ -134,7 +137,11 @@ export const projectsByCategory = {
       main: U4,
       client: '4U Grocery (Not Deployed)',
       images: [U41, U42, U43, U44, U45, U46],
-      collaborators: ['Nicklaus Ling', 'George Balungay', 'Daniel Gallego'],
+      collaborators: [
+        { name: 'Nicklaus Ling', role: 'UI/UX Designer, Frontend Developer' },
+        { name: 'George Balungay', role: 'Backend Developer' },
+        { name: 'Daniel Gallego', role: 'Backend Development' }
+      ],
       industry: 'Retail',
     },
   ],
