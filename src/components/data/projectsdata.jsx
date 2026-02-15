@@ -66,13 +66,20 @@ export const projectsByCategory = {
         'Our team developed a mobile application for detecting diseases in calamansi leaves as part of our thesis project. After completing a fully interactive prototype in Figma, we are now transitioning the design into a functional, coded application. The app aims to help farmers and gardeners monitor plant health and take preventive measures to maintain healthy crops.',
       caption:
         'AI-powered leaf health monitoring.',
-      github: 'https://github.com/mnsling/calasense_mobileapp',
-      website: 'https://graylemon.example.com',
+      links: [
+        { label: "CALASENSE GITHUB LINK", url: "https://github.com/mnsling/calasense_mobileapp" },
+        { label: "CALASENSE FIGMA DESIGN", url: "https://www.figma.com/design/0whbxTdm8MGfQU0saaKu5b/CalaSense-Mobile-App?node-id=0-1&t=Ha8XI6ZVI2sYs5LG-1" }
+      ],
       main: CS,
       images: [CS1, CS2],
       client: 'Ateneo de Davao University',
-      collaborators: ['Nicklaus Ling', 'Ram Nacar', 'Jose Idpan'],
+      collaborators: [
+        { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
+        { name: 'Ram Nacar', role: 'Machine Learning Engineer' },
+        { name: 'Jose Idpan', role: 'Machine Learning Engineer' }
+      ],
       industry: 'Agricultural Technology',
+      figmaEmbed: "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/0whbxTdm8MGfQU0saaKu5b/CalaSense-Mobile-App"
     },
     {
       id: 2,
@@ -82,13 +89,16 @@ export const projectsByCategory = {
         'I redesigned Gray Lemon Tech’s employee management system with a modern and intuitive interface, transforming it into a personal project to fully realize my design vision. The project focuses on streamlining employee workflows, enhancing usability, and creating a clean, visually appealing experience. By reimagining the system’s interface, I aimed to make complex tasks—like tracking attendance, managing profiles, and monitoring performance—simpler and more efficient for users, while maintaining a consistent and professional aesthetic throughout.',
       caption:
         'Future-ready UI for effortless workforce management.',
-      github: 'https://github.com/example/gray-lemon-figma',
-      website: 'https://graylemon.example.com',
+      links: [
+        { label: "GRAY LEMON EMPLOYEE MANAGEMENT SYSTEM FIGMA DESIGN", url: "https://www.figma.com/design/iWhWtMCNyWD917usvzgMSq/Gray-Lemon-Dashboard?node-id=0-1&t=tKcu9Dkq16xtqF1w-1" }
+      ],
       main: GL,
       images: [GL1, GL2, GL3, GL4, GL5, GL6],
       client: 'Concept',
       collaborators: ['Nicklaus Ling'],
       industry: 'Enterprise Solutions',
+      figmaEmbed: "https://embed.figma.com/design/iWhWtMCNyWD917usvzgMSq/Gray-Lemon-Dashboard?node-id=0-1&embed-host=share"
+
     },
   ],
   web: [
@@ -99,13 +109,18 @@ export const projectsByCategory = {
       description:
         'A sleek e-commerce concept for Gentle Monster, designed with a clean, minimalist aesthetic and a touch of edgy style to reflect the Tekken collaboration. The project emphasizes intuitive navigation, striking product displays, and subtle, bold interactions to create a modern, immersive shopping experience that aligns with the brand’s distinctive and dynamic identity.',
       caption: 'A fresh digital face for an iconic brand',
-      github: 'https://github.com/mnsling/gentlemonster',
-      website: 'https://graylemon.example.com',
+      links: [
+        { label: "GENTLE MONSTER ver.LING GITHUB LINK", url: "https://github.com/mnsling/gentlemonster" },
+        { label: "GENTLE MONSTER REWORK WEBSITE", url: "https://gentlemonster-v1.vercel.app/" },
+        { label: "GENTLE MONSTER FIGMA DESIGN", url: "https://www.figma.com/design/GXe1M40aZyil2JfN1x4Yz2/Gentle-Monster-Website?node-id=94-3&t=nyLxiEMXK9Jl2VIJ-1" }
+      ],
       main: GM,
       client: 'Concept',
       images: [GM1, GM2, GM3, GM4, GM5],
       collaborators: ['Nicklaus Ling'],
       industry: 'Fashion & Retail',
+      figmaEmbed: "https://embed.figma.com/design/GXe1M40aZyil2JfN1x4Yz2/Gentle-Monster-Website?node-id=94-3&embed-host=share"
+
     }, {
       id: 4,
       title: '4U Grocery POS & Inventory Management System',
@@ -113,8 +128,9 @@ export const projectsByCategory = {
       description:
         'A clean and efficient web application for managing grocery sales and inventory in real-time. Our team developed this POS and inventory management system to match the store owner’s preferences, focusing on simplicity, organization, and a modern, minimalistic design. The system streamlines daily operations, reduces hassle, and provides an intuitive interface for managing products, tracking sales, and maintaining stock with ease.',
       caption: 'Tailored for Smarter Retail Management',
-      github: 'https://github.com/mnsling/4U-POS-Website',
-      website: 'https://4U.example.com',
+      links: [
+        { label: "4U POS & INVENTORY MANAGEMENT SYSTEM GITHUB LINK", url: "https://github.com/mnsling/4U-POS-Website" },
+      ],
       main: U4,
       client: '4U Grocery (Not Deployed)',
       images: [U41, U42, U43, U44, U45, U46],
