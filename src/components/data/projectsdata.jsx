@@ -68,7 +68,7 @@ export const projectsByCategory = {
         'AI-powered leaf health monitoring.',
       links: [
         { label: "CALASENSE GITHUB LINK", url: "https://github.com/mnsling/calasense_mobileapp" },
-        { label: "CALASENSE FIGMA DESIGN", url: "https://www.figma.com/design/0whbxTdm8MGfQU0saaKu5b/CalaSense-Mobile-App?node-id=0-1&t=Ha8XI6ZVI2sYs5LG-1" }
+        { label: "CALASENSE FIGMA DESIGN", url: "https://www.figma.com/design/ZPoEIwz9a4F0p49r1IxIwf/3.-CalaSense-Calamansi-App?node-id=0-1&t=NOAFuFc5zXEjDRHC-1" }
       ],
       main: CS,
       images: [CS1, CS2],
@@ -79,7 +79,7 @@ export const projectsByCategory = {
         { name: 'Jose Idpan', role: 'Machine Learning Engineer' }
       ],
       industry: 'Agricultural Technology',
-      figmaEmbed: "https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/0whbxTdm8MGfQU0saaKu5b/CalaSense-Mobile-App"
+      figmaEmbed: "https://embed.figma.com/design/ZPoEIwz9a4F0p49r1IxIwf/3.-CalaSense-Calamansi-App?node-id=0-1&embed-host=share"
     },
     {
       id: 2,
@@ -90,7 +90,7 @@ export const projectsByCategory = {
       caption:
         'Future-ready UI for effortless workforce management.',
       links: [
-        { label: "GRAY LEMON EMPLOYEE MANAGEMENT SYSTEM FIGMA DESIGN", url: "https://www.figma.com/design/iWhWtMCNyWD917usvzgMSq/Gray-Lemon-Dashboard?node-id=0-1&t=tKcu9Dkq16xtqF1w-1" }
+        { label: "GRAY LEMON EMPLOYEE MANAGEMENT SYSTEM FIGMA DESIGN", url: "https://www.figma.com/design/itde4HBqQ7O4XHigIRBxFU/4.-Gray-Lemon-EMD?node-id=3-2&t=184EtuvnVazyicjG-1" }
       ],
       main: GL,
       images: [GL1, GL2, GL3, GL4, GL5, GL6],
@@ -99,7 +99,7 @@ export const projectsByCategory = {
         { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
       ],
       industry: 'Enterprise Solutions',
-      figmaEmbed: "https://embed.figma.com/design/iWhWtMCNyWD917usvzgMSq/Gray-Lemon-Dashboard?node-id=0-1&embed-host=share"
+      figmaEmbed: "https://embed.figma.com/design/itde4HBqQ7O4XHigIRBxFU/4.-Gray-Lemon-EMD?node-id=3-2&embed-host=share"
     },
   ],
   web: [
@@ -113,7 +113,7 @@ export const projectsByCategory = {
       links: [
         { label: "GENTLE MONSTER ver.LING GITHUB LINK", url: "https://github.com/mnsling/gentlemonster" },
         { label: "GENTLE MONSTER REWORK WEBSITE", url: "https://gentlemonster-v1.vercel.app/" },
-        { label: "GENTLE MONSTER FIGMA DESIGN", url: "https://www.figma.com/design/GXe1M40aZyil2JfN1x4Yz2/Gentle-Monster-Website?node-id=94-3&t=nyLxiEMXK9Jl2VIJ-1" }
+        { label: "GENTLE MONSTER FIGMA DESIGN", url: "https://www.figma.com/design/DkNRu8rcW95eVAd3e3ZXoY/2.-Gentle-Monster-Rework?node-id=2-2&t=p573VNSsX9KvqEqB-1" }
       ],
       main: GM,
       client: 'Concept',
@@ -122,7 +122,7 @@ export const projectsByCategory = {
         { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
       ],
       industry: 'Fashion & Retail',
-      figmaEmbed: "https://embed.figma.com/design/GXe1M40aZyil2JfN1x4Yz2/Gentle-Monster-Website?node-id=94-3&embed-host=share"
+      figmaEmbed: "https://embed.figma.com/design/DkNRu8rcW95eVAd3e3ZXoY/2.-Gentle-Monster-Rework?node-id=2-2&embed-host=share"
 
     }, {
       id: 4,
