@@ -13,6 +13,7 @@ import GL3 from '../../assets/GrayLemon/3.png'
 import GL4 from '../../assets/GrayLemon/4.png'
 import GL5 from '../../assets/GrayLemon/5.png'
 import GL6 from '../../assets/GrayLemon/6.png'
+import GL7 from '../../assets/GrayLemon/7.png'
 import U41 from '../../assets/4U/1.png'
 import U42 from '../../assets/4U/2.png'
 import U43 from '../../assets/4U/3.png'
@@ -93,7 +94,7 @@ export const projectsByCategory = {
         { label: "GRAY LEMON EMPLOYEE MANAGEMENT SYSTEM FIGMA DESIGN", url: "https://www.figma.com/design/itde4HBqQ7O4XHigIRBxFU/4.-Gray-Lemon-EMD?node-id=3-2&t=184EtuvnVazyicjG-1" }
       ],
       main: GL,
-      images: [GL1, GL2, GL3, GL4, GL5, GL6],
+      images: [GL7, GL1, GL2, GL3, GL4, GL5, GL6],
       client: 'Concept',
       collaborators: [
         { name: 'Nicklaus Ling', role: 'UI/UX Designer, Fullstack Developer' },
