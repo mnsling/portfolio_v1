@@ -58,14 +58,15 @@ const CursorLens = () => {
     window.addEventListener("mousemove", handleMouseMove, { passive: true });
 
     const animate = () => {
-      const speed = 0.03; // smaller = slower, smoother
+      const speed = 0.15; // Increased speed (from 0.03 to 0.15) so the red dot feels snappy and responsive
 
       currentPos.current.x += (mousePos.current.x - currentPos.current.x) * speed;
       currentPos.current.y += (mousePos.current.y - currentPos.current.y) * speed;
 
       const node = cursorRef.current;
       if (node) {
-        node.style.transform = `translate(${currentPos.current.x - 50}px, ${currentPos.current.y - 50}px)`;
+        // Updated offset: -4px because the dot width/height is now 8px (halved to center it perfectly)
+        node.style.transform = `translate(${currentPos.current.x - 4}px, ${currentPos.current.y - 4}px)`;
       }
 
       rafId.current = requestAnimationFrame(animate);
@@ -85,18 +86,16 @@ const CursorLens = () => {
   return (
     <div
       ref={cursorRef}
-      className="fixed pointer-events-none z-50 hidden lg:block" // double-guard: only show at lg+
+      className="fixed pointer-events-none z-50 hidden lg:block"
       style={{
-        width: "100px",
-        height: "100px",
+        width: "8px", // Clean, subtle dot size
+        height: "8px",
         borderRadius: "50%",
-        backdropFilter: "invert(1) contrast(2) brightness(1.2)",
-        WebkitBackdropFilter: "invert(1) contrast(2) brightness(1.2)",
-        backgroundColor: "rgba(0, 0, 0, 0.2)",
-        border: "1px solid rgba(255, 255, 255, 0.4)",
+        backgroundColor: "#EF4444", // Tailwind's vibrant red-500
+        boxShadow: "0 0 12px rgba(239, 68, 68, 0.6)", // Gives it a clean neon/cyberpunk glow
         top: 0,
         left: 0,
-        transform: "translate(-9999px, -9999px)", // offscreen until first frame
+        transform: "translate(-9999px, -9999px)",
       }}
     />
   );
