@@ -42,3 +42,18 @@
   scrollbar-color: #ffffff00 #ffffff00;
   scroll-behavior: smooth;
 }
+
+/* Hide standard cursor on desktop devices */
+@media (min-width: 1024px) {
+  html.custom-cursor, 
+  html.custom-cursor button, 
+  html.custom-cursor a {
+    cursor: none !important;
+  }
+}
+
+/* Scale the red dot up significantly when hovering */
+html.cursor-hovering .custom-dot-lens {
+  scale: 4.5; /* Increased from 2.5 to 4.5 for a much bigger dot */
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.9); /* Enhanced glow to match the larger size */
+}

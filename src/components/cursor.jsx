@@ -88,11 +88,11 @@ const CursorLens = () => {
       ref={cursorRef}
       className="fixed pointer-events-none z-50 hidden lg:block"
       style={{
-        width: "8px", // Clean, subtle dot size
-        height: "8px",
+        width: "12px", // Clean, subtle dot size
+        height: "12px",
         borderRadius: "50%",
         backgroundColor: "#EF4444", // Tailwind's vibrant red-500
-        boxShadow: "0 0 12px rgba(239, 68, 68, 0.6)", // Gives it a clean neon/cyberpunk glow
+        boxShadow: "0 2px 12px rgba(255, 0, 0, 0.6)", // Gives it a clean neon/cyberpunk glow
         top: 0,
         left: 0,
         transform: "translate(-9999px, -9999px)",

@@ -2,6 +2,11 @@
 
 export const updatesData = [
   {
+    date: "2026/06/20",
+    title: "Graduation Day!",
+    description: "Today marks a significant milestone as I officially graduated with a Bachelor of Science in Computer Science. This achievement reflects years of dedication, learning, challenges, and growth. I'm grateful to everyone who supported me throughout this journey and excited to begin the next chapter of my career in technology, design, and development.",
+    collaborators: ["Nicklaus Ling"],
+  }, {
     date: "2025/11/01",
     title: "Thesis Successfully Defended!",
     description: "We successfully defended our Calamansi Leaf Disease Detection Mobile Application, with only minor revisions recommended by the panel. The project demonstrated the effectiveness of our trained YOLOv5 model and validated our system’s performance through real-world testing.",

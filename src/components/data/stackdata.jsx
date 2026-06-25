@@ -33,5 +33,5 @@ export const stackData = [
     { name: 'CANVA', image: Canva },
     { name: 'TRELLO', image: Trello },
     { name: 'NOTION', image: Notion }
-  ]
+  ],
 ];

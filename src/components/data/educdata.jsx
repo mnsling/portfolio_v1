@@ -7,10 +7,10 @@ import PASD from '../../assets/sakya.jpg'
 export const educationData = [
     {
         school: 'Ateneo de Davao University',
-        period: '2020 - PRESENT',
-        description: `At Ateneo de Davao University, I started in Business Management, earning a 3.53 QPI and a spot on the President’s
-List, before shifting to Computer Science. Since then, I’ve earned two Dean’s List awards, developed a POS and inventory system with my groupmates, and recently completed my internship
-at Gray Lemon Tech as a Fullstack Software Engineer.`,
+        period: '2020 - 2026',
+        description: `I started in Business Management at Ateneo de Davao University (3.53 QPI, President’s List) before shifting to Computer Science, 
+        where I am now a graduate. Along the way, I earned two Dean’s List awards, co-developed a POS and inventory system, and completed a Fullstack 
+        Software Engineer internship at Gray Lemon Tech.`,
         address: 'Roxas Ave, Poblacion District, Davao City, 8000 Davao del Sur',
         googleMaps: 'https://www.google.com/maps/place/Ateneo+de+Davao+University/@7.0711329,125.6108451,17z/data=!3m1!4b1!4m6!3m5!1s0x32f9115554d3f877:0xd50ec690ed6db9b4!8m2!3d7.0711276!4d125.61342!16zL20vMDQwMmxz?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D',
         officialSite: 'https://www.addu.edu.ph/',
