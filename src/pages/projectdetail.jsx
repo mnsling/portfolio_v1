@@ -53,7 +53,7 @@ const ProjectDetail = () => {
                 <div className='flex flex-col gap-10'>
                     {/* Mobile Title Block */}
                     <div className='flex flex-col lg:hidden'>
-                        <h1 className='font-noto text-[20px] font-bold text-black'>{project.title}</h1>
+                        <h1 className='font-noto text-[20px] text-black'>{project.title}</h1>
                         <p className='font-ibm text-[14px] text-[#777777]'>{project.caption}</p>
                         {githubLink && (
                             <button onClick={() => window.open(githubLink, '_blank')} className='flex gap-3 text-[#777777] hover:text-black items-center mt-3 transition-colors'>
